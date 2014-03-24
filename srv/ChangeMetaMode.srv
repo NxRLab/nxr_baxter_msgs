@@ -1,0 +1,24 @@
+# Service call and request to change the meta mode
+
+##REQUEST CONSTS##
+uint8 IDLE_DISABLED=0
+uint8 IDLE_ENABLED=1
+uint8 RESTART_KINECT=2
+uint8 MIME=3
+uint8 CRANE=4
+
+##REQUEST FIELDS##
+uint8 mode
+
+---
+
+##RESPONSE CONSTS##
+uint8 IDLE_DISABLED=0
+uint8 IDLE_ENABLED=1
+uint8 RESTART_KINECT=2
+uint8 MIME=3
+uint8 CRANE=4
+
+##RESPONSE FIELDS##
+# True means mode changed, false means not
+bool error
