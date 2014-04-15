@@ -1,0 +1,12 @@
+# Service call to get the current desired joint values
+
+##REQUEST FIELDS##
+# None?
+
+---
+
+##RESPONSE FIELDS##
+#True if there are new values, false otherwise
+bool new_values
+string[] joint_names
+float64[] joint_values

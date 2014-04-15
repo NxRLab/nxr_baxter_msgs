@@ -49,6 +49,7 @@ add_message_files(
 add_service_files(
   FILES
   ChangeMetaMode.srv
+  JointValues.srv
 )
 
 ## Generate actions in the 'action' folder

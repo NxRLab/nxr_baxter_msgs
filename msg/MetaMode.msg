@@ -1,4 +1,4 @@
-# Message used to send out what the message is
+# Message used to send out what the mode is
 
 ##CONSTS##
 uint8 IDLE_DISABLED=0
