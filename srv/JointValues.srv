@@ -8,5 +8,6 @@
 ##RESPONSE FIELDS##
 #True if there are new values, false otherwise
 bool new_values
+string val_type
 string[] joint_names
 float64[] joint_values
